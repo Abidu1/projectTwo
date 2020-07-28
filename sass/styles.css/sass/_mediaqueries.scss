@@ -1,0 +1,215 @@
+//Home Media Queries
+@media(max-width:768px){
+// Home header styling
+
+    h1{
+        font-size:5.8rem;
+        line-height:54px;
+    }
+
+    h2{
+        font-size:2.3rem;
+        line-height:48px;
+    }
+
+    body{
+        font-size:1.7rem;
+        line-height:28px;
+    }
+
+
+    .header-nav ul{
+        flex-direction: column;
+    }
+
+    .home-gallery ul{
+        flex-direction: column;
+    }
+
+    .discover-materials{
+        flex-direction: column;
+    }
+
+    .discover-text{
+        order:1;
+        text-align: center;
+        padding:15px;
+        flex: 1 0 auto;
+    }
+
+    .options{
+        flex-direction: column;
+    }
+
+    .options div{
+        width:100%;
+        text-align: center;
+    }
+
+    .group-program-box,
+    .locations-box{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .group-program-box .group-location-image,
+    .locations-box .group-location-image{
+        position: static;
+        padding-top: 50px;
+    }
+
+    .group-location-text{
+        padding:0;
+        text-align: center;
+    }
+
+    .locations-box .group-location-text{
+        order:1;
+
+    }
+
+    .banner-text{
+        padding: 50px 50px;
+    }
+
+//Blog MediaQueries
+    //  Blog header
+    .header-box{
+        padding:150px 150px;
+        text-align: center;
+    }
+
+    //main
+    .blog-article{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article1, 
+    .mission-info{
+        width:80%;
+        margin-bottom:50px;
+    }
+
+    .article1{
+        position: static;
+    }
+
+    //footer
+    .comments{
+        padding:50px;
+    }
+
+    .comments h2{
+        padding-bottom:10px;
+        text-align: center;
+    }
+
+    .person-comment{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+//Contact MediaQueries
+    // Contact footer section
+    .footer-info-section{
+        flex-direction: column;
+        align-items: center;
+        }
+    .footer-info-section .form{
+        width: 100%;
+        position:static;
+        }
+
+    .contact-form{
+        text-align: center;
+        padding:0;
+        }
+
+    .contact-information{
+        text-align: center;
+        margin:20px;
+        width:100%;
+        }
+
+    
+}
+
+
+@media(max-width:600px){
+    h1{
+        font-size:4.0rem;
+        line-height:50px;
+    }
+
+    .home-logo-nav{
+        padding:10px 10px 30px;
+    }
+
+    h2{
+        font-size:2rem;
+        line-height:45px;
+    }
+
+    body{
+        font-size:1.5rem;
+        line-height:25px;
+    }
+
+    .discover-text{
+        order:1;
+        text-align: center;
+        padding:0;
+    }
+
+}
+
+
+@media(max-width:530px){
+    h1{
+        font-size:3.7rem;
+        line-height:45px;
+    }
+
+    h2{
+        font-size:1.7rem;
+        line-height:40px;
+    }
+
+    body{
+        font-size:1.5rem;
+        line-height:20px;
+    }
+}
+
+@media(max-width:480px){
+    h1{
+        font-size:3rem;
+    }
+
+    h2{
+        font-size:1.3rem;
+    }
+
+    body{
+        font-size:1.2rem;
+    }
+}
+
+@media(max-width:360px){
+    h1{
+        font-size:2.3rem;
+    }
+
+    h2{
+        font-size:1.1rem;
+    }
+
+    body{
+        font-size:1rem;
+    }
+
+}
+
+

@@ -1,0 +1,97 @@
+//Home-footer
+footer{
+    background-color: $secondybackground;    
+ }
+ 
+ .footer-home-section1{
+    padding-bottom:100px;
+ }
+ 
+ .footer-information{
+    display:flex;
+    flex-direction: column;
+ }
+ 
+ .banner-text,
+ .copyright{
+    text-align: center;
+ }
+
+ .banner-text{
+   padding: 100px 100px;
+ }
+ 
+ .footer-section2{
+    background-color: black;
+    color:white;
+    padding:0.5px;
+ }
+
+
+ //Blog Footer
+ .blog-footer-section1{
+   background-color: $primarybackground;
+}
+
+
+.comments{
+  display: flex;
+  flex-direction: column;
+  padding:100px;
+}
+
+.person-comment{
+  display:flex;
+  align-items: center;
+}
+
+.comment-text{
+  margin:60px;
+  width:calc(85% - 60px);
+  margin:30px;
+  
+}
+
+.person-image{
+  width:calc(15% - 20px);
+}
+
+
+.form{
+  background-color: $primarybackground;
+  display: flex;
+}
+
+.contact-form{
+  padding-left:100px;
+}
+
+
+//Contact
+
+.contact-footer{
+  background-color: $primarybackground;
+}
+.contact{
+  padding:100px;
+}
+
+.footer-info-section{
+  display:flex;
+  justify-content: space-between;
+}
+
+.social-media-icons a i{
+  color:black;
+}
+
+.footer-info-section .form{
+  width:calc(70% - 20px);
+  position: relative;
+  top:-250px;
+}
+
+.contact-information{
+  margin:20px;
+  width:calc(30% - 10px);
+}
